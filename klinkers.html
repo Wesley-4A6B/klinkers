@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="nl">
+    <head>
+        <meta http-equiv="content-type" content="text/html" charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Klinkers</title>
+		<script src="klinkers.js"></script>
+        <style>
+			html, body{
+				width: 98%;
+				height: 98%;
+			}
+			
+			.content{
+				width: 50%;
+				height: 30%;
+				border: 1px solid black;
+				overflow: scroll;
+			}
+        </style>
+    </head>
+    <body>
+		<input type="text" placeholder="Tekst coderen" id="invoer">
+		<button onclick="knop()">Coderen</button><br><br><br>
+		<div class="content" id="content"></div>
+    </body>
+</html>
